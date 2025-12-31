@@ -1,0 +1,24 @@
+Title:          openssl-3.2.0-i586-openssl.tcz
+Description:    openssl
+Version:        3.2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           2.7M
+Extension_by:   linic@hotmail.ca
+Tags:           cryptography tls ssl dev
+Comments:       Runs successfully on i686 CPUs and tested on the ThinkPad 560z.
+                Required by rust toolchain.
+                ----------
+                This extension contains:
+                  libssl.so.3
+                  libcrypto.so.3
+                from openssl - Apache 2.0 - https://www.openssl.org/
+                This is the minimum used by rust.
+                Built by linic@hotmail.ca using the method described in these URLs: 
+                  https://github.com/linic/tcl-core-rust-i586
+                  https://github.com/linic/openssl-i586
+                ----------
+Change-log:     2024/02/24 first version
+                2024/02/25 updated 1.1.1o -> 3.0.0
+Current:        2025/04/18 updated 3.0.0 -> 3.2.0
