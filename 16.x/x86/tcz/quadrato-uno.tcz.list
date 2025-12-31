@@ -1,0 +1,12 @@
+/usr/local/bin/quadrato-uno-rust
+/usr/local/quadrato-uno/Makefile
+/usr/local/quadrato-uno/compile-tcz.sh
+/usr/local/quadrato-uno/generate-tcz-companions.sh
+/usr/local/quadrato-uno/info/1_title.txt
+/usr/local/quadrato-uno/info/2_description.txt
+/usr/local/quadrato-uno/info/3_version.txt
+/usr/local/quadrato-uno/info/4_author-copying-policy.txt
+/usr/local/quadrato-uno/info/5_size.txt
+/usr/local/quadrato-uno/info/6_extension_by-comments.txt
+/usr/local/quadrato-uno/install-prerequisites.sh
+/usr/local/quadrato-uno/quadrato-uno.rs

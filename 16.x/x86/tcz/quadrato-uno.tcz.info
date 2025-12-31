@@ -1,0 +1,12 @@
+Title:          quadrato-uno.tcz
+Description:    A single colored square printed using fb0.
+Version:        1.0.0
+Author:         linic@hotmail.ca
+Original-site:  https://gitlab.com/linichotmailca/quadrato-uno.git
+Copying-policy: GPL-3.0 license.
+Size:           220K
+Extension_by:   linic@hotmail.ca
+Tags:           framebuffer graphic
+Comments:       Builds and runs on ThinkPad 560z.
+Change-log:     2025/12/30 1.0.0
+Current:        2025/12/30 1.0.0
