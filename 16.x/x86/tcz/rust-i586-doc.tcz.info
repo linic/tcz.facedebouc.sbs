@@ -1,0 +1,31 @@
+Title:          rust-i586-doc.tcz
+Description:    rust documentation
+Version:        1.92.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           177.4M
+Extension_by:   linic@hotmail.ca
+Tags:           rust documentation
+Comments:       Runs successfully on i686 CPUs and tested on the ThinkPad 560z.
+                Builds programs which run on i686 CPUs and tested on the ThinkPad 560z.
+                ----------
+                This extension contains:
+                rust documentation - Apache 2.0/MIT - https://github.com/rust-lang/rust/
+                Built by linic@hotmail.ca using the method described in these URLs: 
+                  http://facedebouc.sbs/tiny_core_linux/tcl-core-rust-i586.html
+                  https://github.com/linic/tcl-core-rust-i586.git
+                  https://github.com/linic/rust-i586
+                About versioning, each rust-x.y.z-i586-doc.tcz is the first version, but
+                it lists in the Change-log all the previous versions that were built
+                using the method described in the previous urls.
+                There is also a rust-i586-doc.tcz which serves as the latest.
+                ----------
+Change-log:     2025/04/15 first version
+                2025/04/18 updated 1.85.0 -> 1.86.0
+                2025/07/12 updated 1.86.0 -> 1.87.0
+                2025/07/12 updated 1.87.0 -> 1.88.0
+                2025/08/17 updated 1.88.0 -> 1.89.0
+                2025/09/21 updated 1.89.0 -> 1.90.0
+                2025/11/02 updated 1.90.0 -> 1.91.0
+Current:        2025/12/21 updated 1.91.0 -> 1.92.0

@@ -1,0 +1,1 @@
+b6aa488ec44c976c62b3c3aed7a4099c  ./rust-1.92.0-i586.tcz
