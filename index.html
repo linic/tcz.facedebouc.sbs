@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html><head><title>tcz.facedebouc.sbs</title><meta charset="UTF-8"></head><body>
 <h1>Bienvenue sur tcz.facedebouc.sbs!</h1>
-<p>7</p>
+<a href="#how-to">How to use this partial mirror?</a>,
+<a href="#github-repo">github repo for this site</a>,
+<a href="#git-lfs">Using <code>git lfs</code></a>,
+<a href="#download-file">Downloading a file from github lfs storage</a>,
+<h2 id="how-to">How to use this partial mirror?</h2>
+<p>Modify your <code>/opt/tcemirror</code>. Originally mine had
+<code>http://repo.tinycorelinux.net/</code> and I changed it to
+<code>http://tcz.facedebouc.sbs/</code>. Some options of <code>tce-ab</code> don't work with
+this partial mirror. I only wrote a <code>tags.db.gz</code> and <code>info.lst</code> which I found
+in the scripts used by <code>tce-ab.</code> I only tested the search function of <code>tce-ab</code>.
+</p>
+<h2 id="github-repo">github repo for this site</h2>
 <p>
 For the files for this github pages site, see
 <a href="https://github.com/linic/tcz.facedebouc.sbs">github - linic/tcz.facedebouc.sbs</a>
+I'm experimenting to have a simple no-cost mirror for tcz files hosted in github.</p>
+<h2 id="git-lfs">Using <code>git lfs</code></h2>
+<p>Useful commands under debian: 
+<code><pre>
+apt install git-lfs
+git lfs track "rust-*.tcz"
+git add .gitattributes
+git lfs migrate export --include="*" --everything
+git lfs ls-files
+git push origin main --force
+</pre></code>
 </p>
-<p>Test to have a mirror for tcz files fully hosted in github.</p>
-<p>Useful commands: 
-<code>apt install git-lfs</code>
-<code>git lfs track "rust-*.tcz"</code>
-<code>git add .gitattributes</code>
-<code>git lfs migrate export --include="*" --everything</code>
-<code>git lfs ls-files</code>
-<code>git push origin main --force</code>
-</p>
-<p>.tcz files tracked by LFS will return a file which looks like this:
-  <code>
+<p><code>.tcz</code> files tracked by LFS will return a file which looks like this:
+<code><pre>
 version https://git-lfs.github.com/spec/v1
 oid sha256:dfadb3bca91d6ea050b328ba2faa1fd1d941ffe7097f2146e8c1b3a44c533f04
 size 208289792
-  </code>
-  I'm searching for a way to further download those. For now, I only use lfs to track files larger than 100 MB.
-  </p>
-  <p>How to use this partial mirror? Modify your /opt/tcemirror. Originally mine had http://repo.tinycorelinux.net/ and I changed it to http://tcz.facedebouc.sbs/. Some options of tce-ab doesn't work with this partial mirror. I only wrote a tags.db.gz and info.lst which I found in the scripts used by tce-ab. I only tested the search function of tce-ab.</p>
-  <p>Contatto :  linic@hotmail.ca. Grazie.</p>
-  <p>
-    Il contenuto del sito web è concesso in licenza 
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC BY SA 4.0</a> 
-    se non diversamente specificato.
-  </p>
-</body>
-
-</html>
+</pre></code>
+This can be considered a "pointer". To get the file, the <code>oid</code> and <code>size</code> can
+be used with <code>curl</code> in a body for a github API call. One way to make this work is by
+hosting on the mirror the <code>.tcz</code> for curl. That way, the standard tiny core linux can
+download <code>curl</code> normally using <code>wget</code>. Then, <code>curl</code> can be used to
+get a <code>JSON</code> response with an <code>href</code> which can then be used to download
+the file.</p>
+<h2 id="download-file">Downloading a file from github lfs storage</h2>
+<p>The following scripts exist and are used in this order:
+<ol>
+<li>
+<a href="./make-pointer.sh"><code>./make-pointer.sh maybe-pointer.tcz</code></a> to check if
+the <code>maybe-pointer.tcz</code> file is a pointer file. Regular <code>tce-load</code> will
+fail at the <code>md5sum -c</code> check.
+</li>
+<li>
+<a href="./download-lfs-file.sh"><code>./download-lfs-file.sh a.tcz.pointer</code></a>
+to download the file from github lfs storage. Depends on the next scripts in the list.
+The script that follow will be run as part of <code>./download-lfs-file.sh a.tcz.pointer</code>
+</li>
+<li>
+<a href="./get-download-info.sh"><code>./get-download-info.sh a,tcz.pointer</code></a>
+to get the download info from the github API. Which depends on the next 2.
+</li>
+<li>
+<a href="./extract-oid.sh"><code>./extract-oid.sh</code></a> used within <code>./get-download-info.sh a,tcz.pointer</code> 
+</li>
+<li>
+<a href="./extract-size.sh"><code>./extract-size.sh</code></a> used within <code>./get-download-info.sh a,tcz.pointer</code> 
+</li>
+<li>
+<a href="./extract-href.sh"><code>./extract-href.sh</code></a> used within <code>./download-lfs-file.sh a,tcz.pointer</code> 
+</li>
+</ol>
+</p>
+<p>Contatto :  linic@hotmail.ca. Grazie.</p>
+<p>
+Il contenuto del sito web è concesso in licenza 
+<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC BY SA 4.0</a>
+se non diversamente specificato.
+</p></body></html>

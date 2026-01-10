@@ -1,5 +1,10 @@
+ca-certificates.tcz
+curl.tcz
+gcc_libs.tcz
+libzstd.tcz
 openssl-3.2.0-i586.tcz
 openssl-i586.tcz
+openssl.tcz
 quadrato-uno.tcz
 rust-1.92.0-i586-doc.tcz
 rust-1.92.0-i586.tcz
