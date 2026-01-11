@@ -1,6 +1,6 @@
 Title:          tce-load-github-lfs.tcz
 Description:    Patched tce-load to download from github lfs.
-Version:        0.0.4
+Version:        0.0.7
 Author:         linic@hotmail.ca
 Original-site:  https://gitlab.com/linichotmailca/tce-load-github-lfs.git
 Copying-policy: GPL-3.0 license.
@@ -12,4 +12,7 @@ Change-log:     2026/01/11 0.0.1
                 2026/01/11 updated 0.0.1 -> 0.0.2
                 2026/01/11 updated 0.0.2 -> 0.0.3
                 2026/01/11 updated 0.0.3 -> 0.0.4
-Current:        2026/01/11 0.0.4
+                2026/01/11 updated 0.0.4 -> 0.0.5
+                2026/01/11 updated 0.0.5 -> 0.0.6
+                2026/01/11 updated 0.0.6 -> 0.0.7
+Current:        2026/01/11 0.0.7
