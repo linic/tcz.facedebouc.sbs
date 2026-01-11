@@ -1,0 +1,12 @@
+Title:          tce-load-github-lfs.tcz
+Description:    Patched tce-load to download from github lfs.
+Version:        0.0.1
+Author:         linic@hotmail.ca
+Original-site:  https://gitlab.com/linichotmailca/tce-load-github-lfs.git
+Copying-policy: GPL-3.0 license.
+Size:           8,0K
+Extension_by:   linic@hotmail.ca
+Tags:           concept utilities
+Comments:       This works only with http://tcz.facedebouc.sbs/ partial mirror. It comes with the source code so you can modify it for another github page using github lfs mirror.
+Change-log:     2026/01/11 0.0.1
+Current:        2026/01/11 0.0.1
