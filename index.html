@@ -14,7 +14,13 @@ in the scripts used by <code>tce-ab.</code> I only tested the search function of
 </p>
 <p><code>tce-load -wi curl tce-load-github-lfs<code> is needed to download large <code>.tcz</code>
 files. Read more below to understand why.</p>
-<p>TODO: test <code>tce-load-github-lfs<code></p>
+<p>Tested <code>tce-load-github-lfs<code> on my thinkpad 560z. It should work with any github pages
+based partial mirror like this one here. Remember to change
+<a href="./16.x/x86/tcz/organization.txt">organization.txt</a> and
+<a href="./16.x/x86/tcz/repository.txt">repository.txt</a> because it is needed to correctly
+download the file info which have the href. For more details about <code>tce-load-github-lfs</code>
+check the source code in the tcz itself which are mounted at <code>/usr/local/tce-load-github-lfs/<code> after executing <code>tce-load -i tce-load-github-lfs</code>
+</p>
 <h2 id="github-repo">github repo for this site</h2>
 <p>
 For the files for this github pages site, see
