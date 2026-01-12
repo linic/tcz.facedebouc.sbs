@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head><title>tcz.facedebouc.sbs</title><meta charset="UTF-8"></head><body>
-<h1>Bienvenue sur tcz.facedebouc.sbs!</h1>
+<h1>tcz.facedebouc.sbs - no-cost partial mirror for tinycorelinux extensions</h1>
 <a href="#how-to">How to use this partial mirror?</a>,
 <a href="#github-repo">github repo for this site</a>,
 <a href="#git-lfs">Using <code>git lfs</code></a>,
@@ -12,14 +12,19 @@
 this partial mirror. I only wrote a <code>tags.db.gz</code> and <code>info.lst</code> which I found
 in the scripts used by <code>tce-ab.</code> I only tested the search function of <code>tce-ab</code>.
 </p>
+<h3 id="tce-load-github-lfs"><code>tce-load-github-lfs</code></h3>
 <p><code>tce-load -wi curl tce-load-github-lfs<code> is needed to download large <code>.tcz</code>
-files. Read more below to understand why.</p>
+files. Read more below to understand why.
+For more details about <code>tce-load-github-lfs</code> see
+<a href="https://gitlab.com/linichotmailca/tce-load-github-lfs.git">linichotmailca/tce-load-github-lfs</a>
+or check the source code in the tcz itself which are mounted at <code>/usr/local/tce-load-github-lfs/<code>
+after executing <code>tce-load -i tce-load-github-lfs</code>
+</p>
 <p>Tested <code>tce-load-github-lfs<code> on my thinkpad 560z. It should work with any github pages
 based partial mirror like this one here. Remember to change
 <a href="./16.x/x86/tcz/organization.txt">organization.txt</a> and
 <a href="./16.x/x86/tcz/repository.txt">repository.txt</a> because it is needed to correctly
-download the file info which have the href. For more details about <code>tce-load-github-lfs</code>
-check the source code in the tcz itself which are mounted at <code>/usr/local/tce-load-github-lfs/<code> after executing <code>tce-load -i tce-load-github-lfs</code>
+download the file info which have the href.
 </p>
 <h2 id="github-repo">github repo for this site</h2>
 <p>
@@ -50,6 +55,7 @@ download <code>curl</code> normally using <code>wget</code>. Then, <code>curl</c
 get a <code>JSON</code> response with an <code>href</code> which can then be used to download
 the file.</p>
 <h2 id="download-file">Downloading a file from github lfs storage</h2>
+<p>These are the precursor scripts which led to <a href="#tce-load-github-lfs"><code>tce-load-github-lfs</code></a></p>
 <p>The following scripts exist and are used in this order:
 <ol>
 <li>
