@@ -1,0 +1,12 @@
+Title:          mirror-enable-https.tcz
+Description:    Upgrade mirrors to https when they support it.
+Version:        0.0.1
+Author:         linic@hotmail.ca
+Original-site:  https://gitlab.com/linichotmailca/mirrors-enable-https.git
+Copying-policy: GPL-3.0 license.
+Size:           4,0K
+Extension_by:   linic@hotmail.ca
+Tags:           https mirrors
+Comments:       I chose the same dependencies as the current curl.tcz. Maybe less could be enough.
+Change-log:     2026/01/17 0.0.1
+Current:        2026/01/17 0.0.1

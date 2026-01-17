@@ -4,3 +4,4 @@ rust-*.tcz filter=lfs diff=lfs merge=lfs -text
 quadrato-uno.tcz filter=lfs diff=lfs merge=lfs -text
 openssl-i586.tcz filter=lfs diff=lfs merge=lfs -text
 openssl-3.2.0-i586.tcz filter=lfs diff=lfs merge=lfs -text
+mirror-enable-https.tcz filter=lfs diff=lfs merge=lfs -text
