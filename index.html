@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html><head><title>tcz.facedebouc.sbs</title><meta charset="UTF-8"></head><body>
 <h1>tcz.facedebouc.sbs - no-cost partial mirror for tinycorelinux extensions</h1>
+<a href="#intro">Introduction</a>,
 <a href="#how-to">How to use this partial mirror?</a>,
 <a href="#github-repo">github repo for this site</a>,
 <a href="#git-lfs">Using <code>git lfs</code></a>,
 <a href="#download-file">Downloading a file from github lfs storage</a>,
+<h2 id="intro">Introduction</h2>
+<p>
+Partial mirror to publish concept <code>.tcz</code> extensions for tinycore linux.
+The mirror itself is a concept since it's hosted using github pages.
+From an official tinycore linux distribution, it's possible to enable <code>tce-load</code>
+to download <code>.tcz</code> from github's lfs storage. A minimum set of <code>.tcz</code>
+are not in github's lfs to allow the "upgrade" to happen.
+</p>
+<p>
+These <code>.tcz</code> will <code>tce-load</code> normally because they're not in github's lfs:
+<code><pre>
+ca-certificates.tcz
+curl.tcz
+gcc_libs.tcz
+libzstd.tcz
+openssl.tcz
+tce-load-github-lfs.tcz
+</pre></code>
+</p>
 <h2 id="how-to">How to use this partial mirror?</h2>
 <p>Modify your <code>/opt/tcemirror</code>. Originally mine had
 <code>http://repo.tinycorelinux.net/</code> and I changed it to
@@ -26,6 +46,12 @@ based partial mirror like this one here. Remember to change
 <a href="./16.x/x86/tcz/repository.txt">repository.txt</a> because it is needed to correctly
 download the file info which have the href.
 </p>
+<p>
+To see the files that are not in github's lfs you can use this command:
+<xmp>
+comm -13 <(sort <(git-lfs ls-files | cut -d' ' -f3 | cut -d'/' -f4)) <(sort <(find -name *.tcz | cut -d'/' -f5))
+</xmp>
+</p>
 <h2 id="github-repo">github repo for this site</h2>
 <p>
 For the files for this github pages site, see
@@ -39,6 +65,7 @@ git lfs track "rust-*.tcz"
 git add .gitattributes
 git lfs migrate export --include="*" --everything
 git lfs ls-files
+git lfs untrack "curl.tcz"
 git push origin main --force
 </pre></code>
 </p>

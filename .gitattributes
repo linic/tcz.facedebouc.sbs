@@ -1,7 +1,7 @@
 *.tcz filter=lfs diff=lfs merge=lfs -text
-* !text !filter !merge !diff
-rust-*.tcz filter=lfs diff=lfs merge=lfs -text
-quadrato-uno.tcz filter=lfs diff=lfs merge=lfs -text
-openssl-i586.tcz filter=lfs diff=lfs merge=lfs -text
-openssl-3.2.0-i586.tcz filter=lfs diff=lfs merge=lfs -text
-mirror-enable-https.tcz filter=lfs diff=lfs merge=lfs -text
+ca-certificates.tcz !text !filter !merge !diff
+curl.tcz !text !filter !merge !diff
+gcc_libs.tcz !text !filter !merge !diff
+libzstd.tcz !text !filter !merge !diff
+openssl.tcz !text !filter !merge !diff
+tce-load-github-lfs.tcz !text !filter !merge !diff
