@@ -5,6 +5,32 @@
 # https://git@github.com:linic/tcz.facedebouc.sbs.git             #
 ###################################################################
 
+copy_to()
+{
+  echo "$1 $2 $3"
+  SOURCE=$2
+  DESTINATION=$3
+
+  while IFS= read -r line; do
+    TARGET="$SOURCE/$line"
+    if [ -f "$TARGET" ]; then
+      echo "$TARGET exists"
+      cp --update=older -v "$TARGET"* "$DESTINATION/"
+      if [ $? -eq 0 ]; then
+        continue
+      else
+        return 1
+      fi
+    else
+      echo "$TARGET doesn't exist."
+      return 1
+    fi
+    if [ -f "$TARGET.dep" ]; then
+      copy_to "$TARGET.dep" "$SOURCE" "$DESTINATION"
+    fi
+  done < "$1"
+  return $?
+}
 
 copy()
 {
@@ -30,16 +56,24 @@ copy()
     TARGET="$SOURCE/$line"
     if [ -f "$TARGET" ]; then
       echo "$TARGET exists"
-      cp -v "$TARGET"* "$DESTINATION/"
-      #echo "cp -v $TARGET* $DESTINATION/$line"
-      if [ $? -eq 0 ]; then
-        continue
-      else
-        return 1
+      cp --update=older -v "$TARGET"* "$DESTINATION/"
+      if [ $? -ne 0 ]; then
+        echo "cp error"
+        return $?
       fi
     else
-      echo "$TARGET doesn't exist."
+      echo "$TARGET does not exist!"
       return 1
+    fi
+    if [ -f "$TARGET.dep" ]; then
+      echo "calling copy_to"
+      copy_to "$TARGET.dep" "$SOURCE" "$DESTINATION"
+      if [ $? -ne 0 ]; then
+        echo "copy_to error"
+        return $?
+      fi
+    else
+      echo "$TARGET.dep does not exist."
     fi
   done < "$1"
   return $?
