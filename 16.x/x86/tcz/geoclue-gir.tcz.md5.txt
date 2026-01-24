@@ -1,0 +1,1 @@
+4b91171e2461cfc87f15ad1f53793f68  geoclue-gir.tcz

@@ -1,0 +1,1 @@
+5384459fa69895b5cf4334a97609fb8e  libraw1394-dev.tcz

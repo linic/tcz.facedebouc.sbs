@@ -1,0 +1,1 @@
+29be2d09beddd4a35c634c4c269fdcce  ax25-6.12.11-tinycore.tcz

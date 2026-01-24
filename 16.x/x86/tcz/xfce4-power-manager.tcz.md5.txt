@@ -1,0 +1,1 @@
+7c2d7330499ef92b56dc592b6d0f471d  xfce4-power-manager.tcz

@@ -1,0 +1,1 @@
+0195c68b8e6112aac2911784cf31a905  alsa-modules-6.12.11-tinycore64.tcz

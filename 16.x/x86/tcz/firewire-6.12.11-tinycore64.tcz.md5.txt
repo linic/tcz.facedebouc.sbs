@@ -1,0 +1,1 @@
+83e15b562fad5d7ce9720e30dd7fcd40  firewire-6.12.11-tinycore64.tcz

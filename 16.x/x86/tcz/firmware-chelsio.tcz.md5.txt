@@ -1,0 +1,1 @@
+377048b34eab0bc7919fa464597050d4  firmware-chelsio.tcz

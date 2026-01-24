@@ -1,0 +1,1 @@
+b0de2d28ee993124b915e0b4c0198bc0  nouveau-6.12.11-tinycore.tcz

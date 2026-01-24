@@ -1,0 +1,1 @@
+dc0ce76a62c6fd3be376a0f16e676cf9  libXvmc-dev.tcz

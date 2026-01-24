@@ -1,0 +1,1 @@
+a607e3ba564f341dd3dfbf641b14241e  firmware-atheros.tcz

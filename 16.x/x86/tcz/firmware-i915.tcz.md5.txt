@@ -1,0 +1,1 @@
+1c215ad79635dfba4ba8bef395fa1f9b  firmware-i915.tcz

@@ -1,0 +1,1 @@
+9bd7357688388c0fe28a392d1a5542f0  libsodium-dev.tcz

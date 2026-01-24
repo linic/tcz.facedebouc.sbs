@@ -12,6 +12,25 @@ copy_to()
   DESTINATION=$3
 
   while IFS= read -r line; do
+    # remove trailing white spaces
+    line=`echo "$line" | sed 's/\ //g'`
+    if [ -z $line ]; then
+      continue
+    fi
+    case $line in
+      "evas-dev.tcz"|"evas.tcz"|"gmpc.tcz"|"tiff-dev.tcz"|"audiofile.tcz"|"opusfile-dev.tcz"|"sdl2.tcz")
+        echo "skipping $line since I confirmed it is missing entirely."
+        continue
+        ;;
+      *.tcz)
+        ;;
+      *)
+        line="$line.tcz"
+        ;;
+    esac
+    # KERNEL substitution for 16.x/x86 if present.
+    # TODO make this more generic? Maybe a translation table in the script?
+    line=`echo "$line" | sed 's/KERNEL/6.12.11-tinycore/g'`
     TARGET="$SOURCE/$line"
     if [ -f "$TARGET" ]; then
       echo "$TARGET exists"
@@ -53,6 +72,9 @@ copy()
   fi
 
   while IFS= read -r line; do
+    if [ -z $line ]; then
+      continue
+    fi
     TARGET="$SOURCE/$line"
     if [ -f "$TARGET" ]; then
       echo "$TARGET exists"
@@ -82,6 +104,8 @@ copy()
 usage()
 {
   echo "copy-dependencies [a.tcz.dep] [source-dir]"
+  echo "example ./copy-dependencies.sh 16.x/x86/tcz/compiletc.tcz.dep /temp/tinycorelinux.net/16.x/x86/tcz"
+  echo "where /temp/tinycorelinux.net/16.x/x86/tcz contains all current extensions copied from another mirror."
   return 2
 }
 

@@ -1,0 +1,1 @@
+f5d589c849e5f28c479d8b2ad0c7269c  pci-hotplug-6.12.11-tinycore64.tcz

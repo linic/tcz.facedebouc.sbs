@@ -1,0 +1,1 @@
+c3c03a900d874426b5934ab0a2ef4991  hwmon-6.12.11-tinycore.tcz

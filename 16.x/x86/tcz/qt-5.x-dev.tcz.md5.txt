@@ -1,0 +1,1 @@
+5b53ad913e093a1fdb39ce781a20f2ad  qt-5.x-dev.tcz

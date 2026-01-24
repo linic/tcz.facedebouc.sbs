@@ -1,0 +1,1 @@
+fa8f80bb5563e63ff9163345794ed6d0  python3.6-pygments.tcz

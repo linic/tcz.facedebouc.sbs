@@ -1,0 +1,1 @@
+a38dffa5e841fb5120e459557ad8241d  xfce4-power-manager-doc.tcz

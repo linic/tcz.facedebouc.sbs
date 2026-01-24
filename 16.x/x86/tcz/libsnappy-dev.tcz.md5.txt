@@ -1,0 +1,1 @@
+680e727e8eed282482f5dd4bbf2a1aa3  libsnappy-dev.tcz

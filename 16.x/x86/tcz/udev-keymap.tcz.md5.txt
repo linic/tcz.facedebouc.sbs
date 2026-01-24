@@ -1,0 +1,1 @@
+fc39bed68ceef7c3d983b4efa1ab4254  udev-keymap.tcz

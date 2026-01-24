@@ -1,0 +1,1 @@
+816ce4045f712219f55bd5a2fbd755e6  python-enum34.tcz

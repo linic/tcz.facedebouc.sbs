@@ -1,0 +1,1 @@
+8d9513e98a96d3607165f546698354ec  libcap-ng-doc.tcz

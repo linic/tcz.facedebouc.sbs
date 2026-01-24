@@ -1,0 +1,1 @@
+a0c5d8b14ef8d5f6f5b9c44aa07ca0cf  fcitx-config-gtk.tcz

@@ -1,0 +1,1 @@
+1dbcb29e1d4472c4845a1a77ea64bef2  hwmon-6.12.11-tinycore64.tcz

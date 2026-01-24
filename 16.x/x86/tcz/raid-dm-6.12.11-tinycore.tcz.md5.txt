@@ -1,0 +1,1 @@
+ec78764a56dc18571c390df3a6b94e25  raid-dm-6.12.11-tinycore.tcz

@@ -1,0 +1,1 @@
+157c67fed8a999b4a31a91c139456125  kvm-6.12.11-tinycore64.tcz

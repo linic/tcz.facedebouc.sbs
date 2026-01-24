@@ -1,0 +1,1 @@
+927dd11ffaf263307ca630b0fd7aa1c1  xfce4-cpugraph-plugin.tcz

@@ -1,0 +1,1 @@
+0655a7bbe85e1a4f27fa7be06bf71ba7  socat-doc.tcz

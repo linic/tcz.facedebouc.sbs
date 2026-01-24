@@ -1,0 +1,1 @@
+e63927beebcf9f28510ef18be297afcc  dmidecode-doc.tcz

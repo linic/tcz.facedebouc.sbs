@@ -1,0 +1,1 @@
+1a2bcb9a0beb5edf7b345ca7ff518ca3  pcsc-lite-tools.tcz

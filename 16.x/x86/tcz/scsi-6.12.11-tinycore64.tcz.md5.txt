@@ -1,0 +1,1 @@
+bce501d420cc705e241a2bdd60ce505e  scsi-6.12.11-tinycore64.tcz

@@ -1,0 +1,1 @@
+8297f62b3c4d1c0d09b20fc1025c56ae  openjdk-8-doc.tcz

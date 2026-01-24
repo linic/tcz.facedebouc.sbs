@@ -1,0 +1,8 @@
+net-snmp.tcz
+   libnl.tcz
+   libpci.tcz
+   openssl.tcz
+      gcc_libs.tcz
+   pcre.tcz
+      bzip2-lib.tcz
+

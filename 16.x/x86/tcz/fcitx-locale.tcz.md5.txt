@@ -1,0 +1,1 @@
+896b65f2b750bc719c7bb5bc33eff022  fcitx-locale.tcz

@@ -1,0 +1,1 @@
+dd1d5a10701a131b0683d3adf40404f8  xfce4-power-manager-locale.tcz

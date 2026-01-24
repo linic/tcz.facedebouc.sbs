@@ -1,0 +1,1 @@
+5d7801724b078175e489af94f90cc5de  php-8.2-ext.tcz

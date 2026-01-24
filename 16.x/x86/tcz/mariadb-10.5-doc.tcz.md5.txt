@@ -1,0 +1,1 @@
+8d7d9692a36625b409d7477e9e3b52b8  mariadb-10.5-doc.tcz

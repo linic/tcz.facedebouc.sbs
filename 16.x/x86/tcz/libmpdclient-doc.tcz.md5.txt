@@ -1,0 +1,1 @@
+f6ab608fc6228182482d8c818ad0cf8a  libmpdclient-doc.tcz

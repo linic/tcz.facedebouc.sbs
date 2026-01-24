@@ -1,0 +1,1 @@
+cc1349339adeb1243d0770c7bd47b607  libwnck2-locale.tcz

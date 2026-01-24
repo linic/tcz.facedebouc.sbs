@@ -1,0 +1,1 @@
+fc05bbf0626d0853a723f64417a58bd4  wireless-6.12.11-tinycore64.tcz

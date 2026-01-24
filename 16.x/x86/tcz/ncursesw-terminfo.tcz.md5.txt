@@ -1,0 +1,1 @@
+8b6833d221e07b27319353b9e085160a  ncursesw-terminfo.tcz
