@@ -1,0 +1,16 @@
+Title:          tce-load-hooks.tcz
+Description:    Add hooks to the tce-load script.
+                Hooks:
+                  - additional hash checks
+                  - additional download strategies
+Version:        0.0.1
+Author:         linic@hotmail.ca
+Original-site:  https://gitlab.com/linichotmailca/tce-load-hooks.git
+Copying-policy: GPL-3.0 license.
+Size:           4,0K
+Extension_by:   linic@hotmail.ca
+Tags:           concept tce-load
+Comments:       tce-load-github-lfs and tce-load-sha512 are examples
+                of how to use these hooks.
+Change-log:     2026/01/25 0.0.1
+Current:        2026/01/25 0.0.1

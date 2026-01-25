@@ -5,3 +5,4 @@ gcc_libs.tcz !text !filter !merge !diff
 libzstd.tcz !text !filter !merge !diff
 openssl.tcz !text !filter !merge !diff
 tce-load-github-lfs.tcz !text !filter !merge !diff
+tce-load-hooks.tcz !text !filter !merge !diff
