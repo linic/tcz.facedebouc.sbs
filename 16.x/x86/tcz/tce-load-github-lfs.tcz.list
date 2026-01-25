@@ -1,10 +1,10 @@
+/etc/init.d/tce-download-strategies/github_lfs
 /usr/bin/github-lfs-download-file
 /usr/bin/github-lfs-download-info
 /usr/bin/github-lfs-extract-href
 /usr/bin/github-lfs-extract-oid
 /usr/bin/github-lfs-extract-size
 /usr/bin/github-lfs-make-pointer
-/usr/bin/tce-load-github-lfs.patch
 /usr/local/tce-load-github-lfs/Makefile
 /usr/local/tce-load-github-lfs/compile-tcz.sh
 /usr/local/tce-load-github-lfs/copy-installed.sh
@@ -19,7 +19,4 @@
 /usr/local/tce-load-github-lfs/info/date.txt
 /usr/local/tce-load-github-lfs/info/version.txt
 /usr/local/tce-load-github-lfs/install-prerequisites.sh
-/usr/local/tce-load-github-lfs/tce-load
-/usr/local/tce-load-github-lfs/tce-load-github-lfs.patch
-/usr/local/tce-load-github-lfs/tce-load.orig
-/usr/local/tce.installed/tce-load-github-lfs
+/usr/local/tce.installed
