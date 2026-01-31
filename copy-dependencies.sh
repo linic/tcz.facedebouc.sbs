@@ -106,6 +106,7 @@ usage()
   echo "copy-dependencies [a.tcz.dep] [source-dir]"
   echo "example ./copy-dependencies.sh 16.x/x86/tcz/compiletc.tcz.dep /temp/tinycorelinux.net/16.x/x86/tcz"
   echo "where /temp/tinycorelinux.net/16.x/x86/tcz contains all current extensions copied from another mirror."
+  echo "note if you rename info.lst from the mirror copy to special-temp-tcz.tcz.dep and use that as the first parameter, you'll copy everything."
   return 2
 }
 
