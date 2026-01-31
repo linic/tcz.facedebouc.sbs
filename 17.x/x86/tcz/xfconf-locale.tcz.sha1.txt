@@ -1,0 +1,1 @@
+1547dd1d52fd5502aad74d2cf7dcc7897471c638  xfconf-locale.tcz

@@ -1,0 +1,1 @@
+805d4b66913eb57398c71af8a0e39ac221d3ffce1247a2b5191a6e8ff68526e4  open-vm-tools-dev.tcz

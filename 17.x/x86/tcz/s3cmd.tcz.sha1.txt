@@ -1,0 +1,1 @@
+a3ce273e27dd78880e84d65db6e4fd4b1322194a  s3cmd.tcz

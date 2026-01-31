@@ -1,0 +1,1 @@
+4b3fc8ddbb61925976302b1f80dcf4e1c8604650c0fefe1d55015eab640fccf8  hwmon-6.18.2-tinycore64.tcz

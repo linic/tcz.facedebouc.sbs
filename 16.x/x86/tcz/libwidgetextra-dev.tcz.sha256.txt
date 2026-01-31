@@ -1,0 +1,1 @@
+2bcaf3837681ee570d5c23f1e1ab005c00ee8fb1dea14b8669678a966721ffd2  libwidgetextra-dev.tcz

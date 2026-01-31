@@ -1,0 +1,1 @@
+ef02975bec2ee07fee72092c769f62b8256b27844872415b66d86d919c3c0beb  usb-serial-6.12.11-tinycore.tcz

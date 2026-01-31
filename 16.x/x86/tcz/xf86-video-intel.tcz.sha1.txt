@@ -1,0 +1,1 @@
+8d92c6d85c5381426e7491ffe8f815f0613e20df  xf86-video-intel.tcz

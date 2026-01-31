@@ -1,0 +1,1 @@
+bdf194f32884437a5fcfff34c5fe4c177cfa86b5  xf86-video-vmware.tcz

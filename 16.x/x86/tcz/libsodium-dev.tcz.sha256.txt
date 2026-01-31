@@ -1,0 +1,1 @@
+5d74ec6343d6bab5694e2fc6055ed8a250e3c7a9bd6fb6a19c92e08a6733701c  libsodium-dev.tcz

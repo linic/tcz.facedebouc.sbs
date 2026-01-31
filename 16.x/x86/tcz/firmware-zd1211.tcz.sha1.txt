@@ -1,0 +1,1 @@
+d96e12854ecfe0128da918b7ac56808937d93aa1  firmware-zd1211.tcz

@@ -1,0 +1,1 @@
+b32043d7d38de8d986f7cd2cdecf88aa6fbcf5ea96bb06b288ed6983be542a8357d6e4ddbd843eb316eb93e55726c62226412abefbccac4326fe89e5efa0b4f6  sdl2_ttf-dev.tcz

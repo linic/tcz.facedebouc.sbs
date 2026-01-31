@@ -1,0 +1,1 @@
+25aa1fa2fb3de4e59f1d2a7e1bee2ef70f9e3b5409017c76f85215af5463f9ac  libsoup-gnome-gir.tcz

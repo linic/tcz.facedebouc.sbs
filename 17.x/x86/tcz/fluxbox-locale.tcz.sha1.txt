@@ -1,0 +1,1 @@
+fe7936e0ba5c1f5251ec6d4ba6640babd0a24eeb  fluxbox-locale.tcz

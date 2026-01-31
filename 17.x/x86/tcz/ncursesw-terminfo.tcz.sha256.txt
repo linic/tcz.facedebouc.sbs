@@ -1,0 +1,1 @@
+3ee3f7f13847f148cfb378eb1f8f07f79696c032e420cbcc48c44a01ba777f42  ncursesw-terminfo.tcz

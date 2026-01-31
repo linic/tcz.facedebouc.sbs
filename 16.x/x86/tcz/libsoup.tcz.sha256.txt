@@ -1,0 +1,1 @@
+cfb1c28c4d42b8ad68e81c3744e944590d4f03e48efd31d373e26bc2c7bb2688  libsoup.tcz

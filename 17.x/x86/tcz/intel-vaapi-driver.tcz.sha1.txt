@@ -1,0 +1,1 @@
+c5c91fdf27956558b4daeea70758f8116e22c9fb  intel-vaapi-driver.tcz

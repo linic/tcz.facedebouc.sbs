@@ -1,0 +1,1 @@
+36015dc384b85e5077c02a13afbdaeb5a1da62c1  rust-i586.tcz

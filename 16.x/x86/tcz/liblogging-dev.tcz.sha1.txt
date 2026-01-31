@@ -1,0 +1,1 @@
+43537cac90c9400fff7af15a9e2b8affa2f40892  liblogging-dev.tcz

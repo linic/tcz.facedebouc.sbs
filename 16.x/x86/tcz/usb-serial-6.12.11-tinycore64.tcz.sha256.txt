@@ -1,0 +1,1 @@
+79602a138f56021e6c9b9c1cc566a83e52f3a291dc161cc84f401fb4c8bc1c22  usb-serial-6.12.11-tinycore64.tcz

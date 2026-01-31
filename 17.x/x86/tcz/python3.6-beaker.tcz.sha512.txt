@@ -1,0 +1,1 @@
+ce652fa7fcafa6d7e2da87cbfb0de9f6d5c373330120d3be69de73b89cd6b3ed8648155e1e595f3a154be191c7c436a25f55f087fc14fdcb48adf8abc7abadf7  python3.6-beaker.tcz

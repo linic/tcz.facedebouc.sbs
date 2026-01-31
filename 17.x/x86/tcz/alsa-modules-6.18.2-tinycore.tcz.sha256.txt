@@ -1,0 +1,1 @@
+6cba758fe38de690790e1d750b74e713c440ebefdb03838916d60bc8d7a8b674  alsa-modules-6.18.2-tinycore.tcz

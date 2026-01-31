@@ -1,0 +1,1 @@
+f8ae0ecabf47de616a354075b0ed8895bdbdae65d97c73e628c4fb2ef3fcdf616e84de1cb99716069113ed257da43d11cd921bf2a19c8309cafcd2e5f87a56e4  gobject-introspection.tcz

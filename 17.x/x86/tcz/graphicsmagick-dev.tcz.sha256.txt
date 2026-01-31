@@ -1,0 +1,1 @@
+ca886f60bd3f2713cd299937f981ec59c29262c8698fd2199acaa345eea6a69a  graphicsmagick-dev.tcz

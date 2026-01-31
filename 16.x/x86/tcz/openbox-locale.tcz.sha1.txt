@@ -1,0 +1,1 @@
+8f7dbd99b699c47aedac5e9acddb1e43dc4bcca7  openbox-locale.tcz

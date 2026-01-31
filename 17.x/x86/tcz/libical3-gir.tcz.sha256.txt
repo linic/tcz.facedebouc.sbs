@@ -1,0 +1,1 @@
+c59ee7d3422770f2ada80fd9f9c7a725d27cf7d87c40c2fe549fc6bf4e680bf2  libical3-gir.tcz

@@ -1,0 +1,1 @@
+1b9ab2c00769fcb48b2b7cb21be75cf01ed63739f3f28aef9a1474eecb76dc1d  python3.6-pip-licenses.tcz

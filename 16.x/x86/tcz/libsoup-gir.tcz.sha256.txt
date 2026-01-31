@@ -1,0 +1,1 @@
+2127dee4fabe5a589809659e37e925a07350f4284de72ed27b4b50cec33acaae  libsoup-gir.tcz

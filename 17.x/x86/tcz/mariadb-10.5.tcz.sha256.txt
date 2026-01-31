@@ -1,0 +1,1 @@
+ddc7e2db295ae9630b7c2d3b5569fc0ddfacd3977d49cc16f6ca401510948efe  mariadb-10.5.tcz

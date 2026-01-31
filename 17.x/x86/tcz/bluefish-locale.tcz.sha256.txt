@@ -1,0 +1,1 @@
+9b2bfed509c235d5d4e9e135399e03651864338d61dffc5cb2d4bad9a0530464  bluefish-locale.tcz

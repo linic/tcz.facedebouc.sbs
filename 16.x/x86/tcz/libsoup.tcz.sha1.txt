@@ -1,0 +1,1 @@
+041b623c2dc79f550eb747c202bf4680c02a2d7b  libsoup.tcz

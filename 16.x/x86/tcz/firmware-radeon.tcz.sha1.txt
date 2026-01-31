@@ -1,0 +1,1 @@
+a76f89afd4a0c169340e534f36069e8d8413e5ec  firmware-radeon.tcz

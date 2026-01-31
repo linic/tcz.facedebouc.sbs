@@ -1,0 +1,1 @@
+377daeab03a5bd11ff31c0a0675654f7810cbb20  rust-1.92.0-i586.tcz

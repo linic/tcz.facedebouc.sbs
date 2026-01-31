@@ -1,0 +1,1 @@
+06aad27132713f3c85af97ef5e827590dd2dc058  firmware-broadcom_bcm43xx.tcz

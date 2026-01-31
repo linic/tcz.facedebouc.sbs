@@ -1,0 +1,1 @@
+d229e3410607870bd74ada6109bd49fc68080a4d  vte-2.91-locale.tcz

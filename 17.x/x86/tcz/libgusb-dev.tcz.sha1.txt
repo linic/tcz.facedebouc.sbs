@@ -1,0 +1,1 @@
+02a64849cf86de4d603bb445fb4611d549b779e1  libgusb-dev.tcz

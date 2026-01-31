@@ -1,0 +1,1 @@
+84f848de78dcb12bb2deff6ba8ca3e10cb610784  ltris-locale.tcz

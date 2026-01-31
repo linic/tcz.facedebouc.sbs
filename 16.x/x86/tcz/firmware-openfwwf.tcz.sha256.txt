@@ -1,0 +1,1 @@
+76fc26f48cda0668043011a83f03d6f78b658ebcd5eb7a2803b432fed213c610  firmware-openfwwf.tcz

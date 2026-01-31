@@ -1,0 +1,1 @@
+9d7c1550bea97c89c880b167b1d7844aab8d2b21  firmware-intel.tcz

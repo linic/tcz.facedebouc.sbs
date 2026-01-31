@@ -1,0 +1,1 @@
+a42fe28b85d70fe481d030667af97ead2219af257d835f2f257e5ad0ee55caff  python-nose.tcz

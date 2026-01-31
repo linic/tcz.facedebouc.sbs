@@ -1,0 +1,1 @@
+48a34d6fca0908733f4730d112d8930fcd64a2e7b1a5d8eb206c93dea1620190  python-ecore-dev.tcz

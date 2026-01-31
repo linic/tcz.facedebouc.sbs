@@ -1,0 +1,1 @@
+f88748f671ae50db2bcdac16673bc6e3926599716b7ceefed3dd98b78175e572  bluetooth-6.18.2-tinycore64.tcz

@@ -1,0 +1,1 @@
+e119675a76f3b2c1428123075d61f1f09628fb6bfd6dadb0dc9d5c54ae55b9e1  sctp-6.12.11-tinycore64.tcz

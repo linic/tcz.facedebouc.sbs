@@ -1,0 +1,1 @@
+a0ae677c15ee3a2097c06e9f4bad670be107976c  firmware-rtl_bt.tcz

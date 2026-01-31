@@ -1,0 +1,1 @@
+2af05e71a651d433c49e5e0e5ab55b86d35c4cda2ed74818e5a069ba9e6c7da293de02f5fdc75e5cbfb60be2aa8341cac1133edb5570a58d4cb055724d3cedf0  fluxbox-locale.tcz

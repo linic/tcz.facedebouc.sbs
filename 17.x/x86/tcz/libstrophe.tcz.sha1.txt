@@ -1,0 +1,1 @@
+12f09d957887c7990d7b5ac9f83f8f276a6f1b29  libstrophe.tcz

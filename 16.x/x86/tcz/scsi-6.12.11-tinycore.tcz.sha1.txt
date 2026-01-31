@@ -1,0 +1,1 @@
+42ed258b4fb2b725f78e32aeabfc83526611dcf8  scsi-6.12.11-tinycore.tcz

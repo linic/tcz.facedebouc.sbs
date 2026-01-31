@@ -1,0 +1,1 @@
+ffbb7ee3c0dbbed9ac31ad12d6c52d04665d3f2d0535563c70c8d253629f76c8  abiword-gir.tcz

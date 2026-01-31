@@ -1,0 +1,1 @@
+fb4e50c579e320b8f84bac16ee434ae8283c0e1a67f5b1a5e573c0236c39bfa0  ibus-locale.tcz

@@ -1,0 +1,1 @@
+ca539654bbe5f2c73e4db28de3bd11578e992a41  firmware-qed.tcz

@@ -1,0 +1,1 @@
+47a9d393caa32523c06a8fd432b78563b7f477b8  gtk2-gir.tcz

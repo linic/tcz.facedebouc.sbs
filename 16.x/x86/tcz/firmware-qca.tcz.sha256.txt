@@ -1,0 +1,1 @@
+c0c58bf65b42aaf08467740759efbe35e1b89e2ef5a27ba74d62a94569eddead  firmware-qca.tcz

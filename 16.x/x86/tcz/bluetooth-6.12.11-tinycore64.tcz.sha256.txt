@@ -1,0 +1,1 @@
+b0733c8aa341977c49ed8c44d1a688378b1a17b38b37274c7a0f42d4d5cc6a9c  bluetooth-6.12.11-tinycore64.tcz

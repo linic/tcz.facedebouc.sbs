@@ -1,0 +1,1 @@
+10fe52bff53cde3495a200a4498a301bac703e67edcee2840fb66dcbbde01fb4  python-setuptools.tcz

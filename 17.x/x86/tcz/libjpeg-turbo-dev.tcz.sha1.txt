@@ -1,0 +1,1 @@
+f0ba7ecf9df786b17ec022d2ad336dd4507611c4  libjpeg-turbo-dev.tcz

@@ -1,0 +1,1 @@
+39f051dc72889d12fa92af89c62724a6249db27b3b03fa6b10d7463f34796dc7  lxterminal-locale.tcz

@@ -1,0 +1,1 @@
+c56d78936bffdf82abfe4f76361ab14bf15b0b396d442908abc746835af3628c  xfce4-panel-doc.tcz

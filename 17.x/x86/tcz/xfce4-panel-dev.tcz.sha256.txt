@@ -1,0 +1,1 @@
+6bf2bc9a4e8a7f645ac0f88849cdad905aba50871c4f26be3eb32159bce5f4a3  xfce4-panel-dev.tcz

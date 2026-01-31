@@ -1,0 +1,1 @@
+984d64c68a3f2d41a6ce9c27c2f83d5f83b78fcb  gpgme-doc.tcz

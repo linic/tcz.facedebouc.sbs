@@ -1,0 +1,1 @@
+1b30e805f29342cc96bee4a53777962c465955fe  xfce4-battery-plugin.tcz

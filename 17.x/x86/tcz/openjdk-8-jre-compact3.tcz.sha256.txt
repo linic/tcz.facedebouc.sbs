@@ -1,0 +1,1 @@
+dd99707147de09989808a315f381ede1ca5d16a7b1586dfef2784ccd7646e4ab  openjdk-8-jre-compact3.tcz

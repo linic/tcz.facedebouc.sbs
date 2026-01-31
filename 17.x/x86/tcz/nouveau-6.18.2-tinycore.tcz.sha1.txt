@@ -1,0 +1,1 @@
+187d58ff19e830925e20d28453be55d4d0ee24e5  nouveau-6.18.2-tinycore.tcz

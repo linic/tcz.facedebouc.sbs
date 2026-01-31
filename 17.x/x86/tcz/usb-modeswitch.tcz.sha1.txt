@@ -1,0 +1,1 @@
+60f9946681d93ed976ee966581ceb84790014205  usb-modeswitch.tcz

@@ -1,0 +1,1 @@
+40b97aeeafbe84b4f299b285eccf3fdcc5f48106  firmware-iwl8000.tcz

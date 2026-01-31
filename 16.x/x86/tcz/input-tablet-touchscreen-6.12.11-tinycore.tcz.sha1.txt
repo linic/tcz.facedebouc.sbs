@@ -1,0 +1,1 @@
+4fe846a1cd7423e466a9be5795ddd1f29be19b22  input-tablet-touchscreen-6.12.11-tinycore.tcz

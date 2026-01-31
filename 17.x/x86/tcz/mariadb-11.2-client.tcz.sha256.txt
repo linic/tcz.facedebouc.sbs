@@ -1,0 +1,1 @@
+dedb8128be3a58a5c333696a637a98c6c66519ec530962b7a75ad8c2c62cecb9  mariadb-11.2-client.tcz

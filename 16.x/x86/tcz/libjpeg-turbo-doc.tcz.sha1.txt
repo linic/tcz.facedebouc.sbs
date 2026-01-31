@@ -1,0 +1,1 @@
+14ddbc1e5dec46894546eae95e621d3f6535120d  libjpeg-turbo-doc.tcz

@@ -1,0 +1,1 @@
+8dbbc036ac19ddc05d8e3f8fff4f1dc1dfad4e611460e64eb3e1f9d2067f63f6  libavc1394-dev.tcz

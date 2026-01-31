@@ -1,0 +1,1 @@
+d5fe8ce8a329a11c97fe0a0674ccccc8ac80c4946ececa724e4c0978e932e0c9  libxklavier-doc.tcz

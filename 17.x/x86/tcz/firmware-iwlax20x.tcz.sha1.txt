@@ -1,0 +1,1 @@
+5d6329dd2d56fd5abe6f5b2515dffb1b0084025b  firmware-iwlax20x.tcz

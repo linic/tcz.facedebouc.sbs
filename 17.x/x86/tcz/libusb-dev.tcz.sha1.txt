@@ -1,0 +1,1 @@
+9a04f908c1e0c4e496844d640b41c767ebe7ffda  libusb-dev.tcz

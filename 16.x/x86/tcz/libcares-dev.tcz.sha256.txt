@@ -1,0 +1,1 @@
+8c924da27af5f81965eacbf064843341c99ffef9f8f0c7a75efaa302f01efbd4  libcares-dev.tcz

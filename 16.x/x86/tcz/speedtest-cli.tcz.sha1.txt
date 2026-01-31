@@ -1,0 +1,1 @@
+f3b4afd9e8d91be055fb588591d377522fdcbda9  speedtest-cli.tcz

@@ -1,0 +1,1 @@
+eca9fecb2a1c93118a08e740be73bba6db9cffaf7aab04c629e708b3d8f01daf0982d7171dee6ef33ddba6634cf3cf8c91da6a15ab1153c0ecba9e4e3502a0e4  firmware-wlan.tcz

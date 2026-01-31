@@ -1,0 +1,1 @@
+0043456198f48f72ab1580aa1ddebe1711034fdd  hwmon-6.12.11-tinycore.tcz

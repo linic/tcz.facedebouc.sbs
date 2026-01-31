@@ -1,0 +1,1 @@
+bc1631451fe668705be706e7576adbb390efbe1652af87d57d03a312aa29aaf40b4329dda196e5d1bdcfd3b217ece82cae4f6e9bfff62305f91aa07aaf987dfd  man-db-locale.tcz

@@ -1,0 +1,1 @@
+80bc4abc6a7afd1ab5473c75c76db56e750202e9  nouveau-6.18.2-tinycore64.tcz

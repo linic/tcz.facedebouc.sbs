@@ -1,0 +1,1 @@
+10976da8cd744dc760d3c55fe72959ee7bb688f3  scsi-6.12.11-tinycore64.tcz

@@ -1,0 +1,1 @@
+b014abe0377259ed6e67cf264b3cabc02f3bb1e9  input-tablet-touchscreen-6.18.2-tinycore64.tcz

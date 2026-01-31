@@ -1,0 +1,1 @@
+b0b952c7a975f07c7845923c41d6a1d5e91b52ac  ncursesw-dev.tcz

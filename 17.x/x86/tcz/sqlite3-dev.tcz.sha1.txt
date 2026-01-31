@@ -1,0 +1,1 @@
+a9c8e61ba234cf9dce1ca243786da0ea366162d0  sqlite3-dev.tcz

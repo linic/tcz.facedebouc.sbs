@@ -1,0 +1,1 @@
+d40bfc526dd91cfe1db9784b4cb40390595d01f4012ee68260e35898ebfc8035  pcsc-lite-dev.tcz

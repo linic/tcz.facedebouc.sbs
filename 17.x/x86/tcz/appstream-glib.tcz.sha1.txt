@@ -1,0 +1,1 @@
+6c0ca2a51d274ab5414f652ff31542cfe72ba20e  appstream-glib.tcz

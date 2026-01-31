@@ -1,0 +1,1 @@
+295da7d2b102a7bb819aa33b61f64c9f65d95f7d  geany-locale.tcz

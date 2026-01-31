@@ -1,0 +1,1 @@
+7415a9a73310a6d69681bbc69d4ee79250d38b23  thinkpad-acpi-6.12.11-tinycore64.tcz

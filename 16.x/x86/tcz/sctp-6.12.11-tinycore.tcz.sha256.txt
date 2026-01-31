@@ -1,0 +1,1 @@
+f596bf1191e6bdb7a217820098c69b6a6ecf4c7884ae68c6d775bcc01b919fa6  sctp-6.12.11-tinycore.tcz

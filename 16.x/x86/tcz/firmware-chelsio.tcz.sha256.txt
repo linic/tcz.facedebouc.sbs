@@ -1,0 +1,1 @@
+8b4850ace85550c3e6d9b1d4a9c901af7999d572338ce6c568ec69203e620fe1  firmware-chelsio.tcz

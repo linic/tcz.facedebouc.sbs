@@ -1,0 +1,1 @@
+85e9e4705208ba5823a93078f996c148e5be613f  xfce4-session-locale.tcz

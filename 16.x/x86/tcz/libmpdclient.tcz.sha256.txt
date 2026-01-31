@@ -1,0 +1,1 @@
+7b7ca6345a208ab45fa255cc7ea15f49c4e9cec52410d0f26b0ceadad0d846e3  libmpdclient.tcz

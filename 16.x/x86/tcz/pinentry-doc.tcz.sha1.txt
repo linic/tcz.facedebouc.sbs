@@ -1,0 +1,1 @@
+724b4cdfbb4a1a64c8b2ad481cf75d0690356c1c  pinentry-doc.tcz

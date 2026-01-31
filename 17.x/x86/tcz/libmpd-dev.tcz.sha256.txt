@@ -1,0 +1,1 @@
+fc5237cd41303d933f93a4f6f42e2a77a67cbc4184eaa93fea45bb72e883ac93  libmpd-dev.tcz

@@ -1,0 +1,1 @@
+939653f0ad1803e16088c94aa58fb9a58e14f29c  libassuan.tcz

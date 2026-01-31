@@ -1,0 +1,1 @@
+77ecc89edb0145f14d49b1fbcf2ad9be5e3f3ca6cc37b6acc41ea27493352439  xfce4-appfinder-locale.tcz

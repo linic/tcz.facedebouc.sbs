@@ -1,0 +1,1 @@
+b78a20e62bb47725c19d5ea62dba1b5a2a8a95eb  libgsm-dev.tcz

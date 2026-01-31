@@ -1,0 +1,1 @@
+ce49f180ee8c3ada9c45ea55bf64c134597936c0  gtk-lshw.tcz

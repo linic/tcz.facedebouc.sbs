@@ -1,0 +1,1 @@
+678c9cd7e71c12abaeebff60554d6e42798f212fbb0a6d316bee0121b4a18603  edje-dev.tcz

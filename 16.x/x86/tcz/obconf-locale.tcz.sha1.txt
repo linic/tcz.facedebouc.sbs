@@ -1,0 +1,1 @@
+3d8af7e03bdb8a2989cd903d4ebd27f72cc3ee96  obconf-locale.tcz

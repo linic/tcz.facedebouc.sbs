@@ -1,0 +1,1 @@
+cca9172d003e7828775779fb0d937df9caf3b744  python3.6-chardet.tcz

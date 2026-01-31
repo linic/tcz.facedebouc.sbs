@@ -1,0 +1,1 @@
+33eaf987e401aec7fcce716fd12a3be061450134bcb99c23596df04c5077c8f1  firmware-rtlwifi.tcz

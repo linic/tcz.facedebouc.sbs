@@ -1,0 +1,1 @@
+4b78667fa568b6d40f9702d8a274bef5bb24e69bc75e088eca682dd851f1c6fe  dmidecode.tcz

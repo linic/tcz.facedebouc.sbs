@@ -1,0 +1,1 @@
+54d6cd56b7db68ab63149359ef3a1cd8378e3d2d  libwnck2-locale.tcz

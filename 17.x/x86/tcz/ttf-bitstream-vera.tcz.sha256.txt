@@ -1,0 +1,1 @@
+8dde50b05bb30f0556fe388c6c8e305fbbe23d11decbaaf2999addf5447efacc  ttf-bitstream-vera.tcz

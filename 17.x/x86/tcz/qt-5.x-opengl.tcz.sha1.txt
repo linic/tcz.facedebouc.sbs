@@ -1,0 +1,1 @@
+27a34374435e7bba15ed941b911c9b0247930db3  qt-5.x-opengl.tcz

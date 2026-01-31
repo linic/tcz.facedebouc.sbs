@@ -1,0 +1,1 @@
+4da397314861c9e97bc20778a69cc5fd0119875c0ccd1902ea711c624d882cc6  ibus-chewing-locale.tcz

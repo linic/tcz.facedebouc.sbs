@@ -1,0 +1,1 @@
+6b208e9e11a8827e58832622c11b3bb036d9e849dfc5b096937a9fdd4f07ecfc  xfce4-panel-locale.tcz

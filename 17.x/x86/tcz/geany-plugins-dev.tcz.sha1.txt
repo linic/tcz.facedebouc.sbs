@@ -1,0 +1,1 @@
+a08885a6c42073350f04015a2adc45d11e943db7  geany-plugins-dev.tcz

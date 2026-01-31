@@ -1,0 +1,1 @@
+5888c5dfb6788a7e79e395858cf89d9dd49426540400acdaa8f877fec03f1634  sane-backends-locale.tcz

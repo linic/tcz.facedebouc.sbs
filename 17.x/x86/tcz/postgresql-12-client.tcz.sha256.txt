@@ -1,0 +1,1 @@
+660cd3fdefd9a7e6750e28ae822cbc46a25386d56c5a1588b11012fcfabe1ad2  postgresql-12-client.tcz

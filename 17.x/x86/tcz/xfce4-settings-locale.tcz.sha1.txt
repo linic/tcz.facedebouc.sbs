@@ -1,0 +1,1 @@
+904dc5a1e58cb58ef3143e547f482cb67c042009  xfce4-settings-locale.tcz

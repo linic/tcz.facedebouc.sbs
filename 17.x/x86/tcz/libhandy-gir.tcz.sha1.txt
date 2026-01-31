@@ -1,0 +1,1 @@
+b0d605efb835279fbf73dc92f238a360dc12bb8a  libhandy-gir.tcz

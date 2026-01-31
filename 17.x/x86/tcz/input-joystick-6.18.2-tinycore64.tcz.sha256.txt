@@ -1,0 +1,1 @@
+dc32d52e2009245105eaaeb208ca533d03eec6e46ae9d4ea6d07627dfc033245  input-joystick-6.18.2-tinycore64.tcz

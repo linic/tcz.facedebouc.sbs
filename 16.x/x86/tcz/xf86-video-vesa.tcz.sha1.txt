@@ -1,0 +1,1 @@
+889333e966b802bf1a61a7ea7a6f2751bff3e073  xf86-video-vesa.tcz

@@ -1,0 +1,1 @@
+f38ca679d86528a921d0503e310664bab94b3edb6db7e13a46cb98f187ebe571  librsvg-dev.tcz

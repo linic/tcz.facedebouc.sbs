@@ -1,0 +1,1 @@
+63af16b3c81a299925f7cf49e75a4e0bebaa955b79cec6aca5a7f218460f2cba  lxrandr-locale.tcz

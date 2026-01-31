@@ -1,0 +1,1 @@
+07930a56e454baa8b3baf50e50a5ed1d693c0adf29923beb592c2e1119de35b5  xfce4-panel-gir.tcz

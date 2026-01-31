@@ -1,0 +1,1 @@
+05794a1e62278331cfa2accb36d498fa62bd4c2cf31061149cfa16032b04dd86  sctp-6.18.2-tinycore.tcz

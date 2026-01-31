@@ -1,0 +1,1 @@
+be9f0320964ddbfbb011baf9fde1331416cbb2a7c874807bde31e9ee8808a700d4863f6b2cade560f4cf1eaebde1abcbf18e3a1d1a34c110ddadb1c51c72d0d3  firmware-mediatek.tcz

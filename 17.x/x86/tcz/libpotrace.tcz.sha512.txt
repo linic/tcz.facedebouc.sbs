@@ -1,0 +1,1 @@
+688da9dfc7a9507d10cee9f03cf8fcd4d26c4139a8a88ddea3fdce54cbaff0acbeaa4ecba49fb03b89731b81ab7aac1ba8b6ecc18b41ca267bf3eb84bd17fb51  libpotrace.tcz

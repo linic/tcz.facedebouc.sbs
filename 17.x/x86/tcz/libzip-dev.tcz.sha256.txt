@@ -1,0 +1,1 @@
+2238bcc887604bc486e7094d94486ac59d592a6b42f7b645d0d2ebacdee5bfbd  libzip-dev.tcz

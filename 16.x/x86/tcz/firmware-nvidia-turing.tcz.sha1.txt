@@ -1,0 +1,1 @@
+e26e8286bfc085c0d2948d16a542c0968c692aac  firmware-nvidia-turing.tcz

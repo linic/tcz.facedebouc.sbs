@@ -1,0 +1,1 @@
+956ba96d55eb4a6502aedd9a0769971c2ca852d5dae610a97516417c8948487a  libxfce4util-locale.tcz

@@ -1,0 +1,1 @@
+bd2b52d8a94ef0600e97f06d9f56eb915b44ba1e064b445a66733885d86a14e3  libxklavier-dev.tcz

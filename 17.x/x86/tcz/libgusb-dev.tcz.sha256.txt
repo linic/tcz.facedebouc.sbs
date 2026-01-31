@@ -1,0 +1,1 @@
+1cdfe8dde30915e6c4bf86c3943cdccbaafa538f2a5d52102de198f932e877fa  libgusb-dev.tcz

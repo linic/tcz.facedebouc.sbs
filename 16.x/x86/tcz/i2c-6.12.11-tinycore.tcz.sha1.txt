@@ -1,0 +1,1 @@
+85c195f4041fb49a0ac00576e6315a9fb0bf56c0  i2c-6.12.11-tinycore.tcz

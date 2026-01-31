@@ -1,0 +1,1 @@
+2b82f6e69cad7e85c4d9ad85b138ce43c2d9b5ec  cryptsetup-locale.tcz

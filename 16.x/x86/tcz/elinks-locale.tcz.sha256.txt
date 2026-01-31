@@ -1,0 +1,1 @@
+b55d2d6536fc3ea4b6cfadb9de8bf11bfd529e3fafecda9924ec0d57a0922e20  elinks-locale.tcz

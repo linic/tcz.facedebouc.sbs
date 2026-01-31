@@ -1,0 +1,1 @@
+26099f8c58ab9febd4a9cd65369c42e24bad19a343055df228bdecc10a965d5a0ba42f20fb6c6e8e1b3cc7dd4fec47e5b2ed5376eedffb7fd22c621b6d1a8d30  libXft-dev.tcz

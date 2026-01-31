@@ -1,0 +1,1 @@
+ced9c8e786e47c5ddb2c61703a435ce9acacd344  pyserial.tcz

@@ -1,0 +1,1 @@
+eb41deecd571daaf4bf151acf064aeb11c0034a0  qt-5.x-base.tcz

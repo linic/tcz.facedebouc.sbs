@@ -1,0 +1,1 @@
+b79e69bc40c623ee830a98ef1e9674208498b19f  glib-networking.tcz

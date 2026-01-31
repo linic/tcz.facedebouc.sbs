@@ -1,0 +1,1 @@
+c27ba7b257b2202c9f3e2f317c13595e448f2747  libusb-compat-dev.tcz

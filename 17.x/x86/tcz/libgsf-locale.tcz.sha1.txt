@@ -1,0 +1,1 @@
+d0622d7469a04287e2c26a891b6521e03838bbb2  libgsf-locale.tcz

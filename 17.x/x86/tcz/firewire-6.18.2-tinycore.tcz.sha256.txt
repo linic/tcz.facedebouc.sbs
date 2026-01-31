@@ -1,0 +1,1 @@
+a57ed98541a8f14c5a4ec77ccb54ea5da0357f3e38c78c9d840e7094894b37cf  firewire-6.18.2-tinycore.tcz

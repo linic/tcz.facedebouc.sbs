@@ -1,0 +1,1 @@
+8e68042d2283ddc18b0de20aa86da6a7bc3e2b3816c95aca5eddb74d60aff37d  pcsc-lite-doc.tcz

@@ -1,0 +1,1 @@
+d388f53c23751d1d4ec31e908fef5fd6d5817e99  cpupower-dev.tcz

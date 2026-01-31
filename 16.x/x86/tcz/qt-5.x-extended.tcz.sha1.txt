@@ -1,0 +1,1 @@
+9fca8bd71cb6a4dd48b0ce82102ab07831bc6179  qt-5.x-extended.tcz

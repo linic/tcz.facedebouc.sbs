@@ -1,0 +1,1 @@
+cef27a4f1fd42d46cd66f304fd8c40538b9190cbd5f92d806406c25a342d1003  libcdio-doc.tcz

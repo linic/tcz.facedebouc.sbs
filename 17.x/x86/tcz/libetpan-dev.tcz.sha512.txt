@@ -1,0 +1,1 @@
+36d79ed9ccc0c0ce0965bd45c61db240c9aafecc1fafb9cf3a81ba659dacb594e924e8a4b57615873cb0ea62de195818bca4106da4dec2d3956a1bcad85d6901  libetpan-dev.tcz

@@ -1,0 +1,1 @@
+27993feec8ddb50acee6442ace0d7f1a5fa9e8a60cc5022c75b48d7f2f8ba7b09a39e270b2bd811bf08f40e6c36e514d132cc4b9651782f1daf0f1d5c7d60b42  python3.9-snowballstemmer.tcz

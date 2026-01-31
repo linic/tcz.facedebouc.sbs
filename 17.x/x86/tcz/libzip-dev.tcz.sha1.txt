@@ -1,0 +1,1 @@
+a49cc479a65bbedbc95827a043cdb0800756000e  libzip-dev.tcz

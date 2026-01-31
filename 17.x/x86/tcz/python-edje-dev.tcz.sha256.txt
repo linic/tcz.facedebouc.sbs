@@ -1,0 +1,1 @@
+da6d24e30ed8b08630455bdf1ea9a001bec1a2632882269224cc2e513ca7e2e9  python-edje-dev.tcz

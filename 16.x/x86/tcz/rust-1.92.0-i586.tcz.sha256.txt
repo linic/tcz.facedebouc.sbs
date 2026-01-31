@@ -1,0 +1,1 @@
+dfadb3bca91d6ea050b328ba2faa1fd1d941ffe7097f2146e8c1b3a44c533f04  rust-1.92.0-i586.tcz

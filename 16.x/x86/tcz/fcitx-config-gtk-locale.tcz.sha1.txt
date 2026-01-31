@@ -1,0 +1,1 @@
+e5113eef4c375010ad1b42ec8f1a2dbfdcb7bd44  fcitx-config-gtk-locale.tcz

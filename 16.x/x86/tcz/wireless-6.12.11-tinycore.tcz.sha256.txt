@@ -1,0 +1,1 @@
+71bc45f0aaf8f7e12e11050e56e700c008f8310540f701b2b5c70b14ba898d6c  wireless-6.12.11-tinycore.tcz

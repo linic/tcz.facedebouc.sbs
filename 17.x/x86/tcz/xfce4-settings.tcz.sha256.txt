@@ -1,0 +1,1 @@
+435abfd708d6bccaa1a86f6aa222942b606dc7ddea3bd2c707a8b44fb4c48f50  xfce4-settings.tcz
