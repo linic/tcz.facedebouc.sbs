@@ -1,4 +1,4 @@
-/etc/init.d/etc/init.d/tce-hash-checks/sha512
+/etc/init.d/tce-hash-checks/sha512
 /usr/local/tce-load-sha512-validation/Makefile
 /usr/local/tce-load-sha512-validation/compile-tcz.sh
 /usr/local/tce-load-sha512-validation/generate-tcz-companions.sh
