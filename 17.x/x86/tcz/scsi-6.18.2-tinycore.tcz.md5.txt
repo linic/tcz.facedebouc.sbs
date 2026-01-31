@@ -1,0 +1,1 @@
+04f2f06b09cc835f958866c90132a123  scsi-6.18.2-tinycore.tcz

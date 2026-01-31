@@ -1,0 +1,12 @@
+Title:          libXxf86vm-dev.tcz
+Description:    X vm devs
+Version:        1.1.7
+Author:         Various
+Original-site:  http://www.x.org/
+Copying-policy: X11
+Size:		4KB
+Extension_by:   juanito
+Tags:		X vm dev
+Comments:       -
+Change-log:     2015/12/17 first version
+Current:	2026/01/28 updated 1.1.4 -> 1.1.7

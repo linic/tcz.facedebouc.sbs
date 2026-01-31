@@ -1,0 +1,1 @@
+66264a9ad4d15409328863a12da8d54b  mtd-6.18.2-tinycore64.tcz

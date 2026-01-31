@@ -1,0 +1,1 @@
+7fd5280d10b96ef0d33ec25be670d929  wireless-6.18.2-tinycore.tcz

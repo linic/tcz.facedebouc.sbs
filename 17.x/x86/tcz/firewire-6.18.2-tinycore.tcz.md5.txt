@@ -1,0 +1,1 @@
+82952b1148c04fe2b0241b8872d46dcc  firewire-6.18.2-tinycore.tcz

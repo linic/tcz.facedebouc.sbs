@@ -1,0 +1,1 @@
+32c0d964da18124db5c432a3b5496f29  thinkpad-acpi-6.18.2-tinycore.tcz

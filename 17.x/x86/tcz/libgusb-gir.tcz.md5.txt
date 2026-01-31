@@ -1,0 +1,1 @@
+91c113ffc55ec13531791dba044b37f1  libgusb-gir.tcz

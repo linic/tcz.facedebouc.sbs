@@ -1,0 +1,1 @@
+e00cdd970ff1aae614382ec6349e4c13  pyserial.tcz

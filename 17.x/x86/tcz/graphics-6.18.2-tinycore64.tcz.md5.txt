@@ -1,0 +1,1 @@
+e32cfd4f1be16d3730bd5a4283973e9d  graphics-6.18.2-tinycore64.tcz

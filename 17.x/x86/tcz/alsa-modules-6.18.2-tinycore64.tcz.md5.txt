@@ -1,0 +1,1 @@
+f613d66f163a4b917e0ce778f3c4a51f  alsa-modules-6.18.2-tinycore64.tcz

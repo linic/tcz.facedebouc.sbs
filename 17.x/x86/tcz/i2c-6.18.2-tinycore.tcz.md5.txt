@@ -1,0 +1,1 @@
+176d09a7aa5b00474300c32b40a74565  i2c-6.18.2-tinycore.tcz

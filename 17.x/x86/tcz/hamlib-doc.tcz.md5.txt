@@ -1,0 +1,1 @@
+8ab206e5345c7301f1ca53211bc2cb72  hamlib-doc.tcz

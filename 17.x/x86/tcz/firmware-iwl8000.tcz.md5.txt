@@ -1,0 +1,1 @@
+33bc783dd69ed368c7611fa93db29c01  firmware-iwl8000.tcz

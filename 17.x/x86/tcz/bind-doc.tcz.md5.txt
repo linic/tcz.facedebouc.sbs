@@ -1,0 +1,1 @@
+61cdc47a8d1a00950e1aa44f81d00c7c  bind-doc.tcz

@@ -1,0 +1,1 @@
+6c6ba873b8791537e57b22ef780d65ef  php-8.2-cli.tcz

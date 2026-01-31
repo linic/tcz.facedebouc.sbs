@@ -1,0 +1,1 @@
+6c85bdb71661d6a98f23040975f10f1c  libusbmuxd-dev.tcz

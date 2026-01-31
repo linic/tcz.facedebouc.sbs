@@ -1,0 +1,1 @@
+6ecd12881462bd8b08c2f80fd8a5a8c4  mariadb-10.6-client.tcz

@@ -1,0 +1,1 @@
+79d42f727d658afc00e1b0d7afd59647  ax25-6.18.2-tinycore.tcz

@@ -1,0 +1,1 @@
+90a89b5c7d2ebab683d36ba06c6a0b60  pygobject-dev.tcz

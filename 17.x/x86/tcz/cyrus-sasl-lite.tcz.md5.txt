@@ -1,0 +1,1 @@
+80100a7f107c3309b26dc66c6b557dc6  cyrus-sasl-lite.tcz

@@ -1,0 +1,1 @@
+2adf5fe6996d1421341fe0c0ed657ef5  scsi-6.18.2-tinycore64.tcz

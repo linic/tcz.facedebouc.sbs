@@ -1,0 +1,1 @@
+27bb77d62d770448d2339d42214ddf88  mtd-6.18.2-tinycore.tcz

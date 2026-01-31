@@ -1,0 +1,1 @@
+feca98297cee7df3043b19a09350f35e  sdl2_image-dev.tcz

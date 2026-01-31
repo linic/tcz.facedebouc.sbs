@@ -1,0 +1,1 @@
+c58b1908ab374aaea6f52802c26a987b  firmware-intel_e100.tcz

@@ -1,0 +1,1 @@
+3bb73f4d6921978d0b62e8bb6d023242  xf86-video-intel.tcz

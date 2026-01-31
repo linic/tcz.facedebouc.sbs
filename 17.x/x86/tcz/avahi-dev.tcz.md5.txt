@@ -1,0 +1,1 @@
+1507d21fa7f76fc6e2558c6f2eba70f2  avahi-dev.tcz

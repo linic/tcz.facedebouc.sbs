@@ -1,0 +1,1 @@
+d8d4508864c5084503c0940631fdbf36  avahi-gir.tcz

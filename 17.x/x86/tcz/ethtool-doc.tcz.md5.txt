@@ -1,0 +1,1 @@
+f312f89aa4e8c47d9110a7887815505e  ethtool-doc.tcz

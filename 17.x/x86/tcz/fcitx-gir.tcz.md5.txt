@@ -1,0 +1,1 @@
+2fd73d0be6577d0794fe0cfa66b4fd97  fcitx-gir.tcz

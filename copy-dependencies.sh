@@ -5,6 +5,24 @@
 # https://git@github.com:linic/tcz.facedebouc.sbs.git             #
 ###################################################################
 
+add_to_processed()
+{
+  echo "$1" >> processed.txt
+  return "$?"
+}
+
+has_been_processed()
+{
+  grep "$1" processed.txt -q
+  return "$?"
+}
+
+add_to_missing()
+{
+  echo "$1" >> missing.txt
+  return "$?"
+}
+
 copy_to()
 {
   echo "$1 $2 $3"
@@ -18,20 +36,27 @@ copy_to()
       continue
     fi
     case $line in
-      "evas-dev.tcz"|"evas.tcz"|"gmpc.tcz"|"tiff-dev.tcz"|"audiofile.tcz"|"opusfile-dev.tcz"|"sdl2.tcz")
-        echo "skipping $line since I confirmed it is missing entirely."
-        continue
-        ;;
       *.tcz)
         ;;
       *)
         line="$line.tcz"
         ;;
     esac
-    # KERNEL substitution for 16.x/x86 if present.
-    # TODO make this more generic? Maybe a translation table in the script?
-    line=`echo "$line" | sed 's/KERNEL/6.12.11-tinycore/g'`
+    if echo "$line" | grep "KERNEL" -q; then
+      if echo "$DESTINATION" | grep "17.x/x86/tcz" -q; then
+        line=`echo "$line" | sed 's/KERNEL/6.18.2-tinycore/g'`
+      elif echo "$DESTINATION" | grep "16.x/x86/tcz" -q; then
+        line=`echo "$line" | sed 's/KERNEL/6.12.11-tinycore/g'`
+      else
+        echo "Unsupported KERNEL translation for $DESTINATION"
+        return 1
+      fi
+    fi
     TARGET="$SOURCE/$line"
+    if has_been_processed "$line"; then
+      continue
+    fi
+    add_to_processed "$line"
     if [ -f "$TARGET" ]; then
       echo "$TARGET exists"
       cp --update=older -v "$TARGET"* "$DESTINATION/"
@@ -41,8 +66,7 @@ copy_to()
         return 1
       fi
     else
-      echo "$TARGET doesn't exist."
-      return 1
+      add_to_missing "$line"
     fi
     if [ -f "$TARGET.dep" ]; then
       copy_to "$TARGET.dep" "$SOURCE" "$DESTINATION"
@@ -53,6 +77,13 @@ copy_to()
 
 copy()
 {
+  if [ -f "$1" ]; then
+    echo "$1 exits"
+  else
+    echo "$1 does not exist"
+    return 1
+  fi
+
   DESTINATION=`echo "$1" | cut -d'/' -f1,2,3`
   if [ -d "$DESTINATION" ]; then
     echo "$DESTINATION exists"
@@ -71,33 +102,7 @@ copy()
     return 1
   fi
 
-  while IFS= read -r line; do
-    if [ -z $line ]; then
-      continue
-    fi
-    TARGET="$SOURCE/$line"
-    if [ -f "$TARGET" ]; then
-      echo "$TARGET exists"
-      cp --update=older -v "$TARGET"* "$DESTINATION/"
-      if [ $? -ne 0 ]; then
-        echo "cp error"
-        return $?
-      fi
-    else
-      echo "$TARGET does not exist!"
-      return 1
-    fi
-    if [ -f "$TARGET.dep" ]; then
-      echo "calling copy_to"
-      copy_to "$TARGET.dep" "$SOURCE" "$DESTINATION"
-      if [ $? -ne 0 ]; then
-        echo "copy_to error"
-        return $?
-      fi
-    else
-      echo "$TARGET.dep does not exist."
-    fi
-  done < "$1"
+  copy_to "$1" "$SOURCE" "$DESTINATION"
   return $?
 }
 

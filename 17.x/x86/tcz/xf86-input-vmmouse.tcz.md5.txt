@@ -1,0 +1,1 @@
+25fe7732f025c7b9dc6265edb5a159fe  xf86-input-vmmouse.tcz

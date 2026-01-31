@@ -1,0 +1,1 @@
+5ed735a1091f15d21068066bf34eb5f5  geany-plugins-locale.tcz

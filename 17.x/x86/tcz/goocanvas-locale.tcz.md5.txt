@@ -1,0 +1,1 @@
+38b955f22823dd0ddc6310a7ffcaeafb  goocanvas-locale.tcz

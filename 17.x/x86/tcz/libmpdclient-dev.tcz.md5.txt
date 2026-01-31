@@ -1,0 +1,1 @@
+79711696f8e47f9f50f68b0829120679  libmpdclient-dev.tcz

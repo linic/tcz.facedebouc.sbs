@@ -1,0 +1,1 @@
+fe73680ecc952e94a53196117e9b087a  usb-serial-6.18.2-tinycore.tcz

@@ -1,0 +1,1 @@
+40ac44e05c298906ce0fffd513890724  hunspell-dev.tcz

@@ -1,0 +1,1 @@
+80a17f98d548e439f533e53ba8f79d8d  qt-5.x-script.tcz

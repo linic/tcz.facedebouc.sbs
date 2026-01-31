@@ -1,0 +1,1 @@
+28b3da3648a962dc80bda14b5b992ed9  hamlib.tcz

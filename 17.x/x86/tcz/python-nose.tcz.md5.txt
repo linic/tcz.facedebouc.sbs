@@ -1,0 +1,1 @@
+70a309d3c2c09c72d9660d764e6fd4ff  python-nose.tcz

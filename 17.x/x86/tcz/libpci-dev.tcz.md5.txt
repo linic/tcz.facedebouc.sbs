@@ -1,0 +1,1 @@
+bc9c97c7caf57ecf4ff3181cd3e3f8c1  libpci-dev.tcz

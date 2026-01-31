@@ -1,0 +1,1 @@
+1f77393aa838eada5d07c4b4764e43b7  pysqlite2.tcz

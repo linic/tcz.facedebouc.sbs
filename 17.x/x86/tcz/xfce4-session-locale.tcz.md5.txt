@@ -1,0 +1,1 @@
+5147499f325444f56209c097502a9253  xfce4-session-locale.tcz

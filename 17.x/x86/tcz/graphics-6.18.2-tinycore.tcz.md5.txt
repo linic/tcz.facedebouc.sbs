@@ -1,0 +1,1 @@
+bf005aafec17c6fb4a680cc9f1d26d92  graphics-6.18.2-tinycore.tcz

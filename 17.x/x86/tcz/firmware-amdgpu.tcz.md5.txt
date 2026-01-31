@@ -1,0 +1,1 @@
+4f3550f2a6cbd8a5488877c9f64fcde1  firmware-amdgpu.tcz

@@ -1,0 +1,1 @@
+31b7ed01ef3176ab2615729a35e45c75  wireless-6.18.2-tinycore64.tcz

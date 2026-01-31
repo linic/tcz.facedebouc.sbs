@@ -1,0 +1,1 @@
+8e934a99c2dfd1dd9426b272ed235315  flashrom.tcz

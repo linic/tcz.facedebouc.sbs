@@ -1,0 +1,1 @@
+bf9c82cc1bfee85e02d5296aded75d27  i2c-tools-doc.tcz
