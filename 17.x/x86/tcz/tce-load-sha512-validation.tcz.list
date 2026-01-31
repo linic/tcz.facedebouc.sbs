@@ -1,0 +1,14 @@
+/etc/init.d/tce-hash-checks/sha512
+/usr/local/tce-load-sha512-validation/Makefile
+/usr/local/tce-load-sha512-validation/compile-tcz.sh
+/usr/local/tce-load-sha512-validation/generate-tcz-companions.sh
+/usr/local/tce-load-sha512-validation/info/1_title.txt
+/usr/local/tce-load-sha512-validation/info/2_description.txt
+/usr/local/tce-load-sha512-validation/info/3_version.txt
+/usr/local/tce-load-sha512-validation/info/4_author-copying-policy.txt
+/usr/local/tce-load-sha512-validation/info/5_size.txt
+/usr/local/tce-load-sha512-validation/info/6_extension_by-comments.txt
+/usr/local/tce-load-sha512-validation/info/7_change-log.txt
+/usr/local/tce-load-sha512-validation/info/date.txt
+/usr/local/tce-load-sha512-validation/info/version.txt
+/usr/local/tce-load-sha512-validation/install-prerequisites.sh
