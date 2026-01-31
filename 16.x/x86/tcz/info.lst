@@ -2351,6 +2351,8 @@ taglib.tcz
 tar.tcz
 tcc.tcz
 tce-load-github-lfs.tcz
+tce-load-hooks.tcz
+tce-load-sha512-validation.tcz
 tce-md5check.tcz
 tc-install-GUI.tcz
 tc-install.tcz
