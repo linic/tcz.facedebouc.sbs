@@ -1,0 +1,117 @@
+# Use different pre-set defaults than the global defaults.
+#
+# See `src/bootstrap/defaults` for more information.
+# Note that this has no default value (x.py uses the defaults in `bootstrap.example.toml`).
+profile = 'dist'
+
+# Keeps track of major changes made to this configuration.
+#
+# This value also represents ID of the PR that caused major changes. Meaning,
+# you can visit github.com/rust-lang/rust/pull/{change-id} to check for more details.
+#
+# A 'major change' includes any of the following
+#  - A new option
+#  - A change in the default values
+#
+# If the change-id does not match the version currently in use, x.py will
+# display the changes made to the bootstrap.
+# To suppress these warnings, you can set change-id = "ignore".
+change-id = 146435
+
+[llvm]
+
+# Currently, we only support this when building LLVM for the build triple.
+#
+# Note that many of the LLVM options are not currently supported for
+# downloading. Currently only the "assertions" option can be toggled.
+download-ci-llvm = false
+
+# LLVM targets to build support for.
+# Note: this is NOT related to Rust compilation targets. However, as Rust is
+# dependent on LLVM for code generation, turning targets off here WILL lead to
+# the resulting rustc being unable to compile for the disabled architectures.
+#
+# To add support for new targets, see https://rustc-dev-guide.rust-lang.org/building/new-target.html.
+targets = 'X86'
+
+# Pass extra compiler and linker flags to the LLVM CMake build.
+cflags = '-lz -fcf-protection=none'
+cxxflags = '-lz -fcf-protection=none'
+ldflags = '-lz -fcf-protection=none'
+
+[gcc]
+
+[build]
+
+# Build triple for the pre-compiled snapshot compiler. If `rustc` is set, this must match its host
+# triple (see `rustc --version --verbose`; cross-compiling the rust build system itself is NOT
+# supported). If `rustc` is unset, this must be a platform with pre-compiled host tools
+# (https://doc.rust-lang.org/nightly/rustc/platform-support.html). The current platform must be
+# able to run binaries of this build triple.
+#
+# If `rustc` is present in path, this defaults to the host it was compiled for.
+# Otherwise, `x.py` will try to infer it from the output of `uname`.
+# If `uname` is not found in PATH, we assume this is `x86_64-pc-windows-msvc`.
+# This may be changed in the future.
+build = 'i686-unknown-linux-gnu'
+
+# Which triples to produce a compiler toolchain for. Each of these triples will be bootstrapped from
+# the build triple themselves. In other words, this is the list of triples for which to build a
+# compiler that can RUN on that triple.
+#
+# Defaults to just the `build` triple.
+host = ['i586-unknown-linux-gnu']
+
+# Which triples to build libraries (core/alloc/std/test/proc_macro) for. Each of these triples will
+# be bootstrapped from the build triple themselves. In other words, this is the list of triples for
+# which to build a library that can CROSS-COMPILE to that triple.
+#
+# Defaults to `host`. If you set this explicitly, you likely want to add all
+# host triples to this list as well in order for those host toolchains to be
+# able to compile programs for their native target.
+target = ['i586-unknown-linux-gnu']
+
+# Enable a build of the extended Rust tool set which is not only the compiler
+# but also tools such as Cargo. This will also produce "combined installers"
+# which are used to install Rust and Cargo together.
+# The `tools` (check `bootstrap.example.toml` to see its default value) option specifies
+# which tools should be built if `extended = true`.
+#
+# This is disabled by default.
+extended = true
+
+# Set of tools to be included in the installation.
+#
+# If `extended = false`, the only one of these built by default is rustdoc.
+#
+# If `extended = true`, they are all included.
+#
+# If any enabled tool fails to build, the installation fails.
+tools = ['cargo', ' clippy']
+#    "cargo",
+#    "clippy",
+#    "rustdoc",
+#    "rustfmt",
+#    "rust-analyzer",
+#    "rust-analyzer-proc-macro-srv",
+#    "analysis",
+#    "src",
+#    "wasm-component-ld",
+#    "miri", "cargo-miri" # for dev/nightly channels
+#]
+
+# Arguments passed to the `./configure` script, used during distcheck. You
+# probably won't fill this in but rather it's filled in by the `./configure`
+# script. Useful for debugging.
+configure-args = ['--set', 'change-id=146435', '--set', 'build.extended=true', '--set', 'build.build=i686-unknown-linux-gnu', '--set', 'build.host=i586-unknown-linux-gnu', '--set', 'build.target=i586-unknown-linux-gnu', '--set', 'build.tools=cargo, clippy', '--set', 'llvm.cflags=-lz -fcf-protection=none', '--set', 'llvm.cxxflags=-lz -fcf-protection=none', '--set', 'llvm.ldflags=-lz -fcf-protection=none', '--set', 'llvm.targets=X86', '--set', 'llvm.download-ci-llvm=false']
+
+[install]
+
+[rust]
+
+[dist]
+
+[target.x86_64-unknown-linux-gnu]
+
+[target.i586-unknown-linux-gnu]
+
