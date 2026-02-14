@@ -1,1 +1,1 @@
-adc8c0017231cacdc8fe6568caf581fd  ./release/1.93.0/rust-1.93.0-i586-unknown-linux-gnu.tar.gz
+adc8c0017231cacdc8fe6568caf581fd  rust-1.93.0-i586-unknown-linux-gnu.tar.gz

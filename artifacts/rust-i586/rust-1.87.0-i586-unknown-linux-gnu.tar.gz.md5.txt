@@ -1,1 +1,1 @@
-bd22440d0eb9df683a2b6117f3f766ff  ./release/1.87.0/rust-1.87.0-i586-unknown-linux-gnu.tar.gz
+bd22440d0eb9df683a2b6117f3f766ff  rust-1.87.0-i586-unknown-linux-gnu.tar.gz

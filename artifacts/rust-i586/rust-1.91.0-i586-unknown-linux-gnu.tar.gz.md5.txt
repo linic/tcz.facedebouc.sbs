@@ -1,1 +1,1 @@
-d08b4083519e3e148c493548266fed24  ./release/1.91.0/rust-1.91.0-i586-unknown-linux-gnu.tar.gz
+d08b4083519e3e148c493548266fed24  rust-1.91.0-i586-unknown-linux-gnu.tar.gz
