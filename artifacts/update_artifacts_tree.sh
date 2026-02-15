@@ -47,7 +47,7 @@ walk()
       if [ $? != 0 ]; then
         return "$?"
       fi
-    elif [ -f "$line" ]; then
+    elif [ -f "$line" ] || [ -x "$line" ]; then
       echo "artifacts/$RELATIVE_PATH/$line" | sed "s|\./||" >> "../$FILES_DIR/$LIST_FILE"
       echo "$TREE_LEVEL <a href=\"$RELATIVE_PATH/$line\">$line</a>" >> "$FILES_DIR/$HTML_PAGE"
     else

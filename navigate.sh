@@ -7,13 +7,19 @@
 
 usage()
 {
-  echo "./navigate.sh [list | download [artifact_name]] [url]"
+  echo "./navigate.sh [list [artifacts|root] | download [artifact_name]] [url]"
   echo "example: ./navigate.sh list https://tcz.facedebouc.sbs"
 }
 
 get_artifacts_lst()
 {
   ARTIFACTS_LST=`wget -qO- "$BASE_URL/artifacts.lst"`
+  return $?
+}
+
+get_root_lst()
+{
+  ROOT_LST=`wget -qO- "$BASE_URL/root.lst"`
   return $?
 }
 
@@ -56,8 +62,12 @@ regular_download()
 
 download()
 {
-  get_artifacts_lst
-  ARTIFACT_RELATIVE_PATH=`echo "$ARTIFACTS_LST" | grep --text "$ARTIFACT_NAME" | head -1`
+  if get_root_lst; then
+    EXISTING="$ROOT_LST"
+  elif get_artifacts_lst; then
+    EXISTING="$ARTIFACTS_LST"
+  fi
+  ARTIFACT_RELATIVE_PATH=`echo "$EXISTING" | grep --text "$ARTIFACT_NAME" | head -1`
   if [ ! -z "$ARTIFACT_RELATIVE_PATH" ]; then
     pointer=`wget -qO- "$BASE_URL/$ARTIFACT_RELATIVE_PATH"`
     if [ $? != 0 ] || [ -z "$pointer" ]; then
@@ -96,15 +106,29 @@ main()
 {
   case "$1" in
     list)
-      BASE_URL=$2
+      BASE_URL=$3
       if [ -z "$BASE_URL" ]; then
         usage
         exit 3
       fi
-      get_artifacts_lst
-      result=$?
-      echo "$ARTIFACTS_LST"
-      exit $result
+      case "$2" in
+        artifacts)
+          get_artifacts_lst
+          result=$?
+          echo "$ARTIFACTS_LST"
+          exit $result
+          ;;
+        root)
+          get_root_lst
+          result=$?
+          echo "$RESULT_LST"
+          exit $result
+          ;;
+        *)
+          usage
+          exit $?
+          ;;
+      esac
       ;;
     download)
       BASE_URL=$3

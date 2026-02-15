@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html><head><title>tcz.facedebouc.sbs</title><meta charset="UTF-8"></head><body>
 <h1>tcz.facedebouc.sbs - no-cost partial mirror for tinycorelinux extensions</h1>
+<a href="#limit">Limitations</a>,
 <a href="#intro">Introduction</a>,
 <a href="#concept_tczs">Concept <code>.tcz</code> extensions</a>,
 <a href="#artifcats">Artifacts</a>,
@@ -10,6 +11,14 @@
 <a href="#download-file">Downloading a file from github lfs storage</a>,
 <a href="#site-info">Site Info</a>,
 
+<h2 id="limit">Limitations</h2>
+<p>
+<ul>
+<li><a href="https://docs.github.com/en/billing/concepts/product-billing/git-lfs">github's lfs 10 GiB bandwidth and storage limit</a></li>
+<li><a href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage">github's lfs 2 GB file size limit</a></li>
+<li><a href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#distributing-large-binaries">other means of distributing large binaries</a></li>
+</ul>
+</p>
 
 <h2 id="intro">Introduction</h2>
 <p>
@@ -46,7 +55,7 @@ tce-load-github-lfs.tcz
 <p>
 Some <code>.tcz</code> extensions have interesting artificats. Like for <code>rust-i586.tcz</code>,
 the <code>.tar.gz</code> which was used to generate it can be interesting to non tinycorelinux users.
-They are available in the <a href"./artifacts/artifacts.html">artifacts</a> directory.
+They are available in the <a href="./artifacts/artifacts.html">artifacts</a> directory.
 <a href="./navigate.sh"><code>navigate.sh</code> is available here</a> to simplify the artifacts download.
 To learn more about how <code>navigate.sh</code> works, see:
 <a href="#download-file">Downloading a file from github lfs storage</a>,
@@ -63,7 +72,7 @@ this partial mirror. I only wrote a <code>tags.db.gz</code> and <code>info.lst</
 in the scripts used by <code>tce-ab.</code> I only tested the search function of <code>tce-ab</code>.</p>
 
 <h3 id="tce-load-github-lfs"><code>tce-load-github-lfs</code></h3>
-<p><code>tce-load -wi curl tce-load-github-lfs<code> is needed to download large <code>.tcz</code>
+<p><code>tce-load -wi curl tce-load-github-lfs</code> is needed to download large <code>.tcz</code>
 files. Read more below to understand why.
 For more details about <code>tce-load-github-lfs</code> see
 <a href="https://gitlab.com/linichotmailca/tce-load-github-lfs.git">linichotmailca/tce-load-github-lfs</a>

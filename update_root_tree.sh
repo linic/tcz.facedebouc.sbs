@@ -1,2 +1,108 @@
 #!/bin/sh
-tree --gitignore -L2 . > root.tree.html
+
+##############################################################
+# Copyright (C) 2026 linic@hotmail.ca under GPL-3.0 license. #
+# https://github.com/linic/tcz.facedebouc.sbs                #
+##############################################################
+
+HTML_PAGE="root.html"
+LIST_FILE="root.lst"
+TREE_PREFIX="├─"
+
+usage()
+{
+  echo "./update_root_tree.sh [files]"
+}
+
+generate_files()
+{
+  if [ -f "$LIST_FILE" ]; then
+    rm "$LIST_FILE"
+  fi
+  touch "$LIST_FILE"
+  if [ -f "$HTML_PAGE" ]; then
+    rm "$HTML_PAGE"
+  fi
+  touch $HTML_PAGE
+  echo "<!DOCTYPE html>" >> $HTML_PAGE
+  echo "<html><head><title>$HTML_PAGE</title><meta charset="UTF-8"></head><body><p><code><pre>" >> $HTML_PAGE
+  walk "." "." $TREE_PREFIX "."
+  result=$?
+  echo "</pre></code></p></body></html>" >> $HTML_PAGE
+  return $result
+}
+
+walk()
+{
+  result=0
+  NEXT_DIR_NAME=$1
+  RELATIVE_PATH=$2
+  TREE_LEVEL=$3
+  FILES_DIR=$4
+  cd $NEXT_DIR_NAME
+  ls | while read line; do
+    if [ -d "$line" ]; then
+      walk "$line" "$RELATIVE_PATH/$line" "$TREE_LEVEL$TREE_PREFIX" "$FILES_DIR/.."
+      result=$?
+      if [ $result != 0 ]; then
+        break
+      fi
+    elif [ -f "$line" ] || [ -x "$line" ]; then
+      if [ -f "$FILES_DIR/$LIST_FILE" ]; then
+        echo "$RELATIVE_PATH/$line" | sed "s|\./||" >> "$FILES_DIR/$LIST_FILE"
+      else
+        echo "$FILES_DIR/$LIST_FILE doesn't exist."
+        return 60
+      fi
+      if [ -f "$FILES_DIR/$HTML_PAGE" ]; then
+        echo "$TREE_LEVEL <a href=\"$RELATIVE_PATH/$line\">$line</a>" >> "$FILES_DIR/$HTML_PAGE"
+      else
+        echo "$FILES_DIR/$HTML_PAGE doesn't exist."
+        return 61
+      fi
+    else
+      echo "Ignoring $line"
+    fi
+  done
+  cd ..
+  RELATIVE_PATH="${RELATIVE_PATH%/*}"
+  NEXT_DIR_NAME="${RELATIVE_PATH##*/}"
+  TREE_LEVEL="${TREE_LEVEL%??}"
+  FILES_DIR="${FILES_DIR%/*}"
+  return $result
+}
+
+add_links()
+{
+  while read line; do
+    name=`echo "$line" | cut -d' ' -f2`
+    path=`find -name "$name" -printf "%P\n" | head -n 1`
+    if [ -f "$path" ]; then
+     href="<a href=\"./$path\">$name</a>"
+     sed -i "s|$name|$href|" $HTML_PAGE
+     echo "tried to replace $name with $href"
+   else
+     echo "$path does not exist"
+    fi
+  done < $LIST_FILE
+}
+
+main()
+{
+  case "$1" in
+    links)
+      echo "running an old iteration, this won't do what you want probably"
+      echo "it worked on a tree.txt file"
+      add_links
+      ;;
+    files)
+      generate_files
+      ;;
+    *)
+      usage
+      ;;
+  esac
+  exit "$?"
+}
+
+main "$@"
